@@ -10,15 +10,33 @@
 
 </script>
 <body>
-	<div class="container">
+	<div class="container-1">
 		<a href="index.html">
 	<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo">
 	</a>
 	<div class="forma">
 	<form action="http://www.google.com/search">
-		<input type="text" placeholder="Enter Your Text"  name="q" class="formos">
+		<div class="border"></div>
+		<label for="all-words">All words</label>
+		<input type="text" placeholder="Enter Your Text" name="as_q" class="formos" id="all-words">
 		<br>
-				<input type="submit" value="Search Google" id="unique" class="press" name="tbm=isch">
+		<div class="border">
+		<label for="all-words">Exact words</label>
+		<input type="text" placeholder="Enter Your Text" class="formos" name="as_epq">
+		</div>
+		<br>
+		<div class="border">
+		<label for="all-words">Any of the following words</label>
+		<input type="text" placeholder="Enter Your Text" class="formos" name="as_oq">
+		</div>
+		<br>
+		<div class="border">
+		<label for="all-words">None of the following words</label>
+		<input type="text" placeholder="Enter Your Text" class="formos" name="as_eq">
+		</div>
+		<br>
+
+				<input type="submit" value="Search Advanced Google" id="unique" class="press">
 				<input type="submit" name="btnI" value="I'm Feeling Lucky" id="non" class="press" >
 	</form>
 	</div>
