@@ -1,8 +1,8 @@
 .container{
 	padding: 150px;
-	display: block;
-	margin:auto;
 	text-align: center;
+	max-width: 400px;
+
 }
 #logo{
 	display: block;
@@ -19,9 +19,7 @@
 }
 .formos:hover{
 	box-shadow: 2px 2px rgba(0,0,0,0.1);
-
 	opacity: 0.8;
-
 }
 #unique, #non{
 	display: inline-block;
@@ -40,8 +38,6 @@ input[type="submit"]{
 	color:black;
 }
 .nav{
-	display: inline-block;
-	position: absolute;
 	bottom: 4em;
 	left: 2em;
 	margin:auto;
@@ -64,5 +60,5 @@ border-style: ridge;
 }
 .container-1{
 		text-align: center;
-		display: 
+
 }
